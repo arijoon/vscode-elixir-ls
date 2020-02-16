@@ -20,7 +20,9 @@
     "Debuggers"
   ],
   "activationEvents": [
-    "onLanguage:elixir"
+    "onLanguage:elixir",
+    "onLanguage:EEx",
+    "onLanguage:HTML (EEx)"
   ],
   "main": "./out/src/extension",
   "contributes": {

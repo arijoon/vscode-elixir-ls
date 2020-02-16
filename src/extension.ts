@@ -38,6 +38,7 @@ export function activate(context: ExtensionContext) {
   let clientOptions: LanguageClientOptions = {
     // Register the server for Elixir documents
     documentSelector: [
+      { language: "HTML (EEx)" },
       { language: "elixir", scheme: "file" },
       { language: "elixir", scheme: "untitled" }
     ],
